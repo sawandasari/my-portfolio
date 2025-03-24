@@ -23,15 +23,21 @@ export default function WorkExperience() {
       title: 'RPA Developer',
       duration: 'Jan 2024 - Present',
       company: 'State Street Corporation, Boston, USA',
-      Courses: "Courses Taken:",
       details: [
-        "Human Computer Interaction & Usability",
-        "Technology for mobile Applications",
-        "Machine learning and Data Mining",
-        "Advnaced Algorithms",
-        "Advanced Storage Technologies",
-        "Princicples of Cybersecurity",
+        "The team comprises 15 members based in Hyderabad, Poland, and Boston, processing nearly 10 million RPA transactions per month. With over 150 bots operating 24/7, the automation framework leverages more than 500 worker nodes.",
+        "The extensive codebase includes over 1,600 bots, ensuring seamless automation across Blue Prism's and UI Path’s environments to meet automation targets efficiently.",
+        "Automated end-to-end processes in collaboration with business stakeholders, delivering cost savings through efficient workflow design.",
+        "Developed and maintained reusable components in Blue Prism Object Studio, streamlining interactions with various applications and enhancing automation reusability.",
+        "Managed, deployed, and monitored bots in UiPath Orchestrator, ensuring smooth execution, scheduling, and centralized control of automated processes.",
+        "Enhanced bot stability by implementing robust error-handling mechanisms and scheduling optimizations for seamless execution in production.",
+        "Leveraged Splunk to monitor bot performance, analyze logs, and troubleshoot issues, enabling faster incident resolution.",
+        "Managed project tasks and tracked progress using JIRA, ensuring timely completion of development cycles and incident resolutions.",
+        "Integrated RPA solutions with AWS RDS for optimized database interactions, improving query performance and reducing downtime.",
+        "Managed AWS infrastructure using automated provisioning scripts, ensuring consistent deployment and improved system reliability.",
+        "Coordinated release management activities, including deployments to INT, UAT, and PROD environments, ensuring smooth transitions with minimal disruptions.",
+        "Designed robust alerting mechanisms using Splunk dashboards, providing proactive notifications for anomalies and failures in RPA workflows.",
       ],
+      tech: "Blue Prism, UiPath, Splunk, JIRA, AWS (EC2, S3, RDS), Git, PowerShell, Python, SQL Server, PostgreSQL, Jenkins.",
     },
   ];
 
@@ -67,8 +73,10 @@ export default function WorkExperience() {
     >
       <h2 className="text-2xl font-bold mb-6">Work Experience</h2>
       
-      <div 
-        style={projectContainerStyle}
+      <div
+        style={{display: 'flex',
+          flexDirection: 'column',
+          gap: '10px',}}
         className="flex flex-col gap-6">
         {[...workExperience, ...workExperience1].map((job, index) => (
           <div

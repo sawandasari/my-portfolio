@@ -67,8 +67,10 @@ export default function Education() {
       <h2 className="text-2xl font-bold mb-6">Education</h2>
       
       <div 
-        style={projectContainerStyle}
-        className="flex flex-col gap-6">
+        className="flex flex-col gap-6"
+        style={{display: 'flex', flexDirection: 'column',
+          gap: '10px'}}
+        >
         {[...Education, ...Education1].map((ed, index) => (
           <div
             key={index}
@@ -116,11 +118,6 @@ export default function Education() {
   );
 }
 
-const projectContainerStyle = {
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '10px',
-};
 
 const projectStyle = {
   backgroundColor: '#fff',

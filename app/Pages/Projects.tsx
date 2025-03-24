@@ -7,7 +7,7 @@ export default function Projects() {
     threshold: 0.2,     // Trigger when 20% of the element is visible
   });
     return (
-      <section id="projects" ref={ref} style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s' }}>
+      <section id="projects" ref={ref} style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s', marginTop:'20px'}}>
         <h2>Projects</h2>
         <div style={projectContainerStyle}>
           <div style={projectStyle}>
