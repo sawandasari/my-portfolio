@@ -34,9 +34,9 @@ body {
 }
 
 .navbar-link:hover {
-  color: #0070f3; /* Highlight color */
+  color: #6fedef; /* Highlight color */
   transform: scale(1.1);
-  text-decoration: underline; /* Underline on hover */
+  /*text-decoration: underline; /* Underline on hover */
 }
 
 
