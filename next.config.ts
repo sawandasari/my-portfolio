@@ -5,3 +5,10 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
+// next.config.js
+module.exports = {
+  images: {
+    domains: [], // For now, you can leave it empty for local images.
+  },
+};
