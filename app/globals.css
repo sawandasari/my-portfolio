@@ -8,12 +8,37 @@
   box-sizing: border-box;
 }
 
+nav {
+  margin: 0; /* Prevent any unintended margin from affecting the navbar */
+  padding: 0; /* Reset any additional padding */
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  margin-left: -10px;  /* Ensure it stays above other content */
+}
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
   color: #333;
   line-height: 1.6;
+  margin-left: 20px; /* Add this line to move content to the right */
 }
+
+.navbar-link {
+  color: #fff; /* Default color */
+  text-decoration: none; /* Remove underline by default */
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #0070f3; /* Highlight color */
+  transform: scale(1.1);
+  text-decoration: underline; /* Underline on hover */
+}
+
 
 a {
   text-decoration: none;
@@ -27,7 +52,7 @@ h1, h2, h3 {
 /* Add hover effects to links */
 a:hover {
   color: #0070f3;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 
 html {
