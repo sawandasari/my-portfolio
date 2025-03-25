@@ -27,21 +27,24 @@ export default function Certifications() {
     },
     {
       title: 'SS&C Blue Prism Customer Excellence Awards 2024 Winner | Operational Ingenuity',
-      description: 'This award celebrates customers who have built a solid framework and delivery methodology to achieve their IA success.',
+      description: 'This award celebrates customers who have built a solid framework and delivery methodology to achieve IA success.',
       link: 'https://www.credly.com/badges/c5e89b61-3312-40f1-9fb7-a90d01aefdd6/linked_in?t=sdy61k', 
-      
     },
     {
-      title: 'Programming essentials in Python by Hackrrank',
+      title: 'Programming essentials in Python by Hackerrank',
       description: 'It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes.',
       link: 'https://www.hackerrank.com/certificates/e20ff43ab76b',
     },
-    
   ];
 
   // Function to handle showing certificate
   const handleViewClick = (index: number) => {
     setSelectedCertificate(certificates[index]);
+  };
+
+  // Function to handle closing certificate details
+  const handleCloseClick = () => {
+    setSelectedCertificate(null);
   };
 
   return (
@@ -69,6 +72,7 @@ export default function Certifications() {
           <a href={selectedCertificate.link} target="_blank" rel="noopener noreferrer">
             <button>View Certificate</button>
           </a>
+          <button onClick={handleCloseClick} style={closeButtonStyle}>Close</button>
         </div>
       )}
     </section>
@@ -88,10 +92,23 @@ const projectStyle = {
   width: '45%',
 };
 
-const certificateDetailsStyle = {
+const certificateDetailsStyle: React.CSSProperties  = {
   marginTop: '20px',
   padding: '20px',
   backgroundColor: '#f9f9f9',
   borderRadius: '10px',
   boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+  position: 'relative',
 };
+
+const closeButtonStyle = {
+  marginTop: '10px',
+  marginLeft: '10px',
+  padding: '10px 20px',
+  backgroundColor: '#0070f3',
+  color: 'white',
+  border: 'none',
+  borderRadius: '5px',
+  cursor: 'pointer',
+};
+
