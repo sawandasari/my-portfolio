@@ -24,7 +24,7 @@ export default function Navbar() {
   );
 }
 
-// Example inline styling
+
 const navbarStyle = {
   backgroundColor: '#000', // Black background
   padding: '10px 0',

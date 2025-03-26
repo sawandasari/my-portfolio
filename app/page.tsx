@@ -21,7 +21,7 @@ export default function Home() {
 
       <Navbar /> 
 
-      {/* Add the Navbar here to render it at the top */}
+      {/* Added the Navbar here to render it at the top */}
       <About />    {/* Rendering the About component */}
       <WorkExperience />
       <Education />
