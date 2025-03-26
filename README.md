@@ -1,8 +1,8 @@
-🚀 My Portfolio
+## 🚀 My Portfolio
 
-Welcome to my portfolio website! This is where I showcase my skills, experience, and projects as a software developer.
+ Welcome to my portfolio website! This is where I showcase my skills, experience, and projects as a software developer.
 
-🌐 About My Portfolio
+## 🌐 About My Portfolio
 
 I built this portfolio to highlight my technical expertise, work experience, and projects that I've worked on. The website is structured into the following sections:
 
@@ -20,7 +20,7 @@ Education – My academic qualifications and achievements.
 
 Contact – A way to get in touch with me for collaborations, job opportunities, or any inquiries.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 This portfolio is built using:
 
