@@ -22,10 +22,9 @@ export default function About() {
             style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center',alignItems: 'center', flex: 1, marginTop:'20px' }}>
                 <h1>Hi there, I'm <strong>Sawan Dasari</strong></h1>
                 <p className="text-lg">
-                    I am a software developer with a deep passion for technology and a broad range of experience across different areas <br/>
-                    of software development. From building automation solutions with Blue Prism, and UiPath to working with front-end <br/>
-                    and back-end technologies like ReactJS, TypeScript, Java, Django, and Python. I enjoy tackling challenges across the <br />
-                    full software stack, bringing my skills in programming and automation together to create innovative solutions.
+                    I am an Application developer with a deep passion for technology and a broad range of experience across different areas <br/>
+                    of application development. From building working with front-end and back-end technologies like ReactJS, TypeScript,JavaScript <br/>
+                    PHP, Java, .Net, and Python. I enjoy tackling challenges across the full software stack, bringing my skills in programming to create innovative solutions.
                 </p>
             </div>
 
