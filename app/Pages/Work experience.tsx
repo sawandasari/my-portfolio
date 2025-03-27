@@ -91,7 +91,7 @@ export default function WorkExperience() {
               <span style={{ marginLeft: 'auto' }} className="text-gray-500">{job.duration}</span>
             </h3>
             <p className="text-gray-700 font-medium">
-              <strong>{job.company}</strong>
+              {job.company}
             </p>
 
             {/* Show details only when expanded */}
