@@ -20,7 +20,7 @@ export default function About() {
             <div
                 style={{
                     ...projectContainerStyle,
-                    width: '95%', // Takes 100% of the available width
+                    width: '95%', 
                     marginTop: '20px',
                     display: 'flex', // Flex container
                     flexDirection: 'row', // Place image and text side by side
@@ -31,18 +31,18 @@ export default function About() {
                 {/* Left: Text Section */}
                 <div style={{ ...projectStyle1, width: '75%' }}>
                     <h1 >Hi there, I'm <strong>Sawan Dasari</strong></h1>
-                    <p className="text-lg" style={{ width: '75%', fontSize: '1.25rem' }}>
+                    <p className="text-lg" style={{ width: '95%', fontSize: '1.25rem' }}>
                         I am an Application developer with a deep passion for technology and a broad range of experience across different areas of application development. From working with front-end and back-end technologies like ReactJS, TypeScript, JavaScript, PHP, Java, .Net, and Python. I enjoy tackling challenges across the full software stack, bringing my skills in programming to create innovative solutions.
                     </p>
                 </div>
 
                 {/* Right: Image Section */}
-                <div style={{ ...projectStyle2, width: '25%' }}>
+                <div style={{ ...projectStyle2, width: '35%'}}>
                     <Image 
-                        src="/Images/myself.jpg" 
+                        src="/Images/img.jpg" 
                         alt="Sawan" 
-                        width={230} 
-                        height={230} 
+                        width={300} 
+                        height={300} 
                         style={{
                             borderRadius: '50%', // Makes the image circular
                             objectFit: 'cover',  // Ensures the image fits in the circle

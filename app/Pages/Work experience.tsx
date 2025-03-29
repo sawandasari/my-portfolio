@@ -20,15 +20,19 @@ export default function WorkExperience() {
   // Work experience data
   const workExperience = [
     {
-      title: 'Application Developer',
+      title: 'RPA/Application Developer',
       duration: 'Jan 2024 - Present',
       company: 'State Street Corporation, Boston, USA',
       details: [
-        "Developed and maintained web applications using ASP.NET, C#, MVC, and Web API, handling end-to-end software development for applications serving 1000+ users across multiple departments.",
-        "Designed and optimized relational database structures in Azure and My SQL Server, developing 50+ stored procedures, triggers, and functions to implement complex business logic.",
+        "The team comprises 15 members based in Hyderabad, Poland, and Boston, processing nearly 10 million RPA transactions per month. With over 150 bots operating 24/7, the automation framework leverages more than 500 worker nodes.",
+        "The extensive codebase includes over 1,600 bots, ensuring seamless automation across Blue Prism's and UI Path’s environments to meet automation targets efficiently.",
+        "Developed and maintained reusable components in Blue Prism Object Studio, streamlining interactions with various applications and enhancing automation reusability.",
+        "Managed, deployed, and monitored bots in UiPath Orchestrator, ensuring smooth execution, scheduling, and centralized control of automated processes.",
+        "Integrated RPA solutions with AWS RDS for optimized database interactions, improving query performance and reducing downtime.",
+        "Designed and optimized relational database structures in My SQL Server, developing 50+ stored procedures, triggers, and functions to implement complex business logic.",
         "Integrated web services REST APIs for data exchange between enterprise applications, ensuring secure and seamless communication between 5+ business-critical systems.",
         "Enhanced front-end functionality with JavaScript, jQuery, and ReactJS, improving UI performance and user experience for enterprise applications used by 500+ employees.",
-        "Led deployment and troubleshooting of applications in a 5-member Agile development team, implementing CI/CD pipelines for faster and more reliable software releases.",
+        "Designed robust alerting mechanisms using Splunk dashboards, providing proactive notifications for anomalies and failures in RPA workflows.",
         "Built and deployed containerized microservices using Docker, improving application portability and scalability in cloud environments.",
         "Developed and optimized database interactions in PostgreSQL, designing efficient indexing strategies to improve query performance.",
         "Wrote ad-hoc queries and custom reports for data analysis, supporting key business decisions by extracting insights from millions of records.",
@@ -36,7 +40,7 @@ export default function WorkExperience() {
         "Collaborated with cross-functional teams including business analysts, QA testers, and project managers to ensure project deliverables align with business requirements, successfully completing 95% of projects on time.",
         "Coordinated release management activities, including deployments to INT, UAT, and PROD environments, ensuring smooth transitions with minimal disruptions.",
       ],
-      tech: "ASP.NET, C#, MVC, Web API, Azure, MySQL Server, REST APIs, JavaScript, Typescript, PHP, jQuery, ReactJS, CI/CD, Docker, PostgreSQL, Technical Documentation.",
+      tech: "Blue prism, UI Path, ASP.NET, C#, MVC, Web API, AWS, MySQL Server, REST APIs, JavaScript, Typescript, PHP, jQuery, ReactJS, CI/CD, Splunk, Docker, PostgreSQL, Technical Documentation.",
     },
   ];
 
@@ -58,7 +62,7 @@ export default function WorkExperience() {
         "Managed AWS infrastructure using automated provisioning scripts, ensuring consistent deployment and improved system reliability.",
         "Utilized NUnit and Mockito for unit testing, automated UI web elements using Selenium locator techniques, and ensured robust test coverage.",
       ],
-      tech: "Spring MVC, Spring IOC, RESTful APIs, Node.js, Spring Boot, Apache Traffic Server, Apache Storm, ReactJS, Virtual DOM, Microsoft Azure, Azure Virtual Machines (VMs), Azure Virtual Networks (VNet), Azure Blob Storage, Microservices, NUnit, Mockito, Selenium.",
+      tech: "Blue Prism, UI Path, Spring MVC, Spring IOC, RESTful APIs, Node.js, Spring Boot, Apache Traffic Server, Apache Storm, ReactJS, Virtual DOM, Microsoft Azure, Azure Virtual Machines (VMs), Azure Virtual Networks (VNet), Azure Blob Storage, Microservices, NUnit, Mockito, Selenium.",
     },
   ];
 

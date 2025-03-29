@@ -8,6 +8,7 @@ import Education from './Pages/Education';
 import WorkExperience from './Pages/Work experience';
 import Contact from './Pages/Contact';
 import Projects from './Pages/Projects';
+import Layout from './Pages/Layout';
 
 
 export default function Home() {
@@ -20,7 +21,6 @@ export default function Home() {
       </Head>
 
       <Navbar /> 
-
       {/* Added the Navbar here to render it at the top */}
       <About />    {/* Rendering the About component */}
       <WorkExperience />

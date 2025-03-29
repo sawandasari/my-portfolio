@@ -8,23 +8,32 @@
   box-sizing: border-box;
 }
 
-nav {
-  margin: 0; /* Prevent any unintended margin from affecting the navbar */
-  padding: 0; /* Reset any additional padding */
-}
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  margin-left: -10px;  /* Ensure it stays above other content */
-}
+
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f0f0f0;
   color: #333;
   line-height: 1.6;
-  margin-left: 20px; /* Add this line to move content to the right */
+  margin-left: 50px; /* Add this line to move content to the right */
 }
+
+nav {
+  margin: 0; /* Prevent any unintended margin from affecting the navbar */
+  padding: 0; /* Reset any additional padding */
+  margin-left: 0; /* Remove left margin for navbar */
+  width: calc(100% + 20px); /* Adjust width to account for body margin */
+  position: sticky;
+  top: 0;
+  z-index: 10; 
+}
+
+
+nav {
+  margin-left: -50px; /* Counteract body margin */
+  width: calc(100% + 50px); /* Extend navbar width to fill the screen */
+}
+
 
 .navbar-link {
   color: #fff; /* Default color */
@@ -34,7 +43,7 @@ body {
 }
 
 .navbar-link:hover {
-  color: #6fedef; /* Highlight color */
+  color: #d53636; /* Highlight color */
   transform: scale(1.1);
   /*text-decoration: underline; /* Underline on hover */
 }
@@ -51,7 +60,7 @@ h1, h2, h3 {
 
 /* Add hover effects to links */
 a:hover {
-  color: #0070f3;
+  color:#d53636;
   transition: color 0.5s ease;
 }
 
@@ -62,8 +71,8 @@ html {
 
 /* Buttons */
 button {
-  background-color: #0070f3;
-  color: white;
+  background-color: #f77878;
+  color: black;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
@@ -72,7 +81,7 @@ button {
 }
 
 button:hover {
-  background-color: #005bb5;
+  background-color: #d53636;
   transform: scale(1.1);
 }
 

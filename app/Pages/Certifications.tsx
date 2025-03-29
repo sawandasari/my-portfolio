@@ -72,7 +72,7 @@ export default function Certifications() {
           <a href={selectedCertificate.link} target="_blank" rel="noopener noreferrer">
             <button>View Certificate</button>
           </a>
-          <button onClick={handleCloseClick} style={closeButtonStyle}>Close</button>
+          <button onClick={handleCloseClick}style={{marginLeft: '10px'}}  >Close</button>
         </div>
       )}
     </section>
@@ -100,15 +100,15 @@ const certificateDetailsStyle: React.CSSProperties  = {
   boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
   position: 'relative',
 };
-
+/*
 const closeButtonStyle = {
   marginTop: '10px',
   marginLeft: '10px',
   padding: '10px 20px',
-  backgroundColor: '#0070f3',
-  color: 'white',
+  backgroundColor: '#f77878',
+  color: 'black',
   border: 'none',
   borderRadius: '5px',
   cursor: 'pointer',
-};
+}; */
 

@@ -59,7 +59,7 @@ export default function Education() {
 
   return (
     <section
-      id="work"
+      id="education"
       ref={ref}
       style={{ opacity: inView ? 1 : 0, transition: 'opacity 1s', marginTop: '20px' }}
       className={`transition-opacity duration-1000 ${inView ? 'opacity-100' : 'opacity-0'}`}
