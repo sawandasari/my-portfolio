@@ -20,49 +20,28 @@ export default function WorkExperience() {
   // Work experience data
   const workExperience = [
     {
-      title: 'RPA/Application Developer',
+      title: 'Software Engineer II',
       duration: 'Jan 2024 - Present',
       company: 'State Street Corporation, Boston, USA',
-      details: [
-        "The team comprises 15 members based in Hyderabad, Poland, and Boston, processing nearly 10 million RPA transactions per month. With over 150 bots operating 24/7, the automation framework leverages more than 500 worker nodes.",
-        "The extensive codebase includes over 1,600 bots, ensuring seamless automation across Blue Prism's and UI Path’s environments to meet automation targets efficiently.",
-        "Developed and maintained reusable components in Blue Prism Object Studio, streamlining interactions with various applications and enhancing automation reusability.",
-        "Managed, deployed, and monitored bots in UiPath Orchestrator, ensuring smooth execution, scheduling, and centralized control of automated processes.",
-        "Integrated RPA solutions with AWS RDS for optimized database interactions, improving query performance and reducing downtime.",
-        "Designed and optimized relational database structures in My SQL Server, developing 50+ stored procedures, triggers, and functions to implement complex business logic.",
-        "Integrated web services REST APIs for data exchange between enterprise applications, ensuring secure and seamless communication between 5+ business-critical systems.",
-        "Enhanced front-end functionality with JavaScript, jQuery, and ReactJS, improving UI performance and user experience for enterprise applications used by 500+ employees.",
-        "Designed robust alerting mechanisms using Splunk dashboards, providing proactive notifications for anomalies and failures in RPA workflows.",
-        "Built and deployed containerized microservices using Docker, improving application portability and scalability in cloud environments.",
-        "Developed and optimized database interactions in PostgreSQL, designing efficient indexing strategies to improve query performance.",
-        "Wrote ad-hoc queries and custom reports for data analysis, supporting key business decisions by extracting insights from millions of records.",
-        "Authored technical documentation, including user guides, IT knowledge base articles, and API reference manuals, improving onboarding and system maintenance processes.",
-        "Collaborated with cross-functional teams including business analysts, QA testers, and project managers to ensure project deliverables align with business requirements, successfully completing 95% of projects on time.",
-        "Coordinated release management activities, including deployments to INT, UAT, and PROD environments, ensuring smooth transitions with minimal disruptions.",
-      ],
-      tech: "Blue prism, UI Path, ASP.NET, C#, MVC, Web API, AWS, MySQL Server, REST APIs, JavaScript, Typescript, PHP, jQuery, ReactJS, CI/CD, Splunk, Docker, PostgreSQL, Technical Documentation.",
+      details: [],
     },
   ];
 
   const workExperience1 = [
     {
-      title: 'Application Developer, Assocaite 2',
+      title: 'Software Engineer',
       duration: 'Jan 2022 - Dec 2022',
       company: 'State Street Corporation, Hyderabad, India',
-      details: [
-        "Developed the monolithic architecture using the Spring MVC framework and implemented Spring dependency injection for database helper instances, leveraging Spring IOC to resolve dependency injection issues.",
-        "Configured Dispatcher Servlet and View Resolver to intercept incoming requests, manage Spring MVC flow, and invoke view components efficiently.",
-        "Designed and built RESTful APIs using Node.js and Spring Boot to provide secure access to financial data, enabling internal and external stakeholders to access real-time information efficiently while maintaining security and compliance standards.",
-        "Implemented performance tuning strategies, including indexing and caching mechanisms in Apache Traffic Server, resulting in a 30% reduction in query execution time.",
-        "Utilized Apache Storm for real-time data processing, enhancing the organization's ability to respond to dynamic data needs.",
-        "Developed and optimized ReactJS components for dynamic front-end applications, improving user experience through state management, virtual DOM, and reusable UI components.",
-        "Responsible for configuring and securing the infrastructure on Microsoft Azure Cloud, provisioning Azure resources such as Virtual Machines (VMs), Virtual Networks (VNet), Managed Disks, Blob Storage, configuring subnets, and handling other operational tasks.",
-        "Managed project tasks and tracked progress using JIRA, ensuring timely completion of development cycles and incident resolutions.",
-        "Built microservices-based architectures using Spring Boot, enabling modular and scalable applications with independent service deployment and management.",
-        "Managed AWS infrastructure using automated provisioning scripts, ensuring consistent deployment and improved system reliability.",
-        "Utilized NUnit and Mockito for unit testing, automated UI web elements using Selenium locator techniques, and ensured robust test coverage.",
-      ],
-      tech: "Blue Prism, UI Path, Spring MVC, Spring IOC, RESTful APIs, Node.js, Spring Boot, Apache Traffic Server, Apache Storm, ReactJS, Virtual DOM, Microsoft Azure, Azure Virtual Machines (VMs), Azure Virtual Networks (VNet), Azure Blob Storage, Microservices, NUnit, Mockito, Selenium.",
+      details: [],
+    },
+  ];
+
+  const workExperience2 = [
+    {
+      title: 'Associate Software Engineer',
+      duration: 'June 2019 - Dec 2020',
+      company: 'Adobe, Hyderabad, India',
+      details: [],
     },
   ];
 
@@ -80,7 +59,7 @@ export default function WorkExperience() {
           flexDirection: 'column',
           gap: '10px',}}
         className="flex flex-col gap-6">
-        {[...workExperience, ...workExperience1].map((job, index) => (
+        {[...workExperience, ...workExperience1, ...workExperience2].map((job, index) => (
           <div
             key={index}
             style={projectStyle}
@@ -107,9 +86,7 @@ export default function WorkExperience() {
                   <li
                   key={i} className="ml-5">{point}</li>
                 ))}
-                <ul 
-                style={{ marginTop: '10px' }} 
-                className="mt-3 text-gray-600"><strong>Technologies: </strong>{job.tech}</ul>
+                
               </ul>
             )}
 

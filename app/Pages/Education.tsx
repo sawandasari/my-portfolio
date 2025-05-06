@@ -39,7 +39,7 @@ export default function Education() {
   const Education1 = [
     {
       title: 'Bacherlors of Technology in Computer Science and Engineering',
-      duration: 'June 2017 - June 2021',
+      duration: 'June 2015 - June 2019',
       univ: 'BV Raju Institue of Technology, Hyderabad, India',
       courses: 'These are the few Courses I have Taken:',
       details: [

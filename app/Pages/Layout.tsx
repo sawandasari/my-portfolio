@@ -1,7 +1,8 @@
 'use client';
 
-import { ThemeProvider, useTheme } from './themeContext'; // Correct path
-import Navbar from './navbar'; // Correct path since Navbar is in the same folder
+import { ThemeProvider } from './themeContext'; // Correct path to the ThemeProvider
+import Navbar from './navbar'; // Correct path to Navbar
+import { useThemeContext } from './themeContext'; // Importing useThemeContext
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -12,11 +13,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 
 function MainLayout({ children }: { children: React.ReactNode }) {
-  const { darkMode, toggleDarkMode } = useTheme();
+  const { darkMode, toggleDarkMode } = useThemeContext(); // This works because ThemeProvider wraps it.
 
   return (
     <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
-      {/* Navbar is inside ThemeProvider, so it can access useTheme */}
+      {/* Navbar is inside ThemeProvider, so it can access useThemeContext */}
       <Navbar />
 
       {/* Dark Mode Toggle Button */}

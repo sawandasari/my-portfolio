@@ -32,7 +32,10 @@ export default function About() {
                 <div style={{ ...projectStyle1, width: '75%' }}>
                     <h1 >Hi there, I'm <strong>Sawan Dasari</strong></h1>
                     <p className="text-lg" style={{ width: '95%', fontSize: '1.25rem' }}>
-                        I am an Application developer with a deep passion for technology and a broad range of experience across different areas of application development. From working with front-end and back-end technologies like ReactJS, TypeScript, JavaScript, PHP, Java, .Net, and Python. I enjoy tackling challenges across the full software stack, bringing my skills in programming to create innovative solutions.
+                    Software Developer with 4 years of experience in designing and developing enterprise-grade applications 
+using Java, Spring Boot, and AWS. Skilled in building microservices, RESTful APIs, and serverless 
+architectures with AWS Lambda, API Gateway, and DynamoDB.Proficient in the AWS ecosystem (EC2, S3, EMR, CloudWatch, CloudForma on, IAM, CodePipeline) with 
+strong knowledge of infrastructure automa on and monitoring. 
                     </p>
                 </div>
 
